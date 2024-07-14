@@ -134,6 +134,60 @@ main{
         margin-left: 50px auto;
        }
 }
+.features{
+    display: flex;
+    gap: 146px;
+
+}
+#ftr-border{
+    border-left: 5px solid rgb(255, 144, 14);
+}
+.ftr-title{
+    font-weight: 700;
+    font-size: 2.8rem;
+    padding-left: 26px;
+}
+.ftr-dis{
+    font-weight:400 ;
+    font-size: 1rem ;
+    color:  rgb(114, 114, 114);
+}
+.card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.card-dis{
+    font-weight: 400;
+    font-size: 1rem;
+    color:  rgb(114, 114, 114);
+}
+.ftr-card{
+    padding:  30px ;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px; 
+    border-radius: 8px;
+}
+.new-btn{
+    width: 300px;
+    height: 180px;
+    background-color: rgb(255, 144, 14) ;
+    border-radius: 8px;
+    margin-left: -92px;
+    margin-top: -77px;
+}
+#ex-year{
+    font-weight: 700;
+    font-size: 4.06rem;
+    color: white;
+}
+#ex{
+    font-weight: 500;
+    font-size: 1.62rem;
+    color: white;
+}
+
+
+
 
 
 

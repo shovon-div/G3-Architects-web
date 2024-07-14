@@ -137,6 +137,9 @@ main{
 .features{
     display: flex;
     gap: 146px;
+    .feature-architect{
+        width: 100%;
+    }
 
 }
 #ftr-border{
@@ -184,6 +187,16 @@ main{
     font-weight: 500;
     font-size: 1.62rem;
     color: white;
+}
+@media screen and (max-width: 576px) {
+    .features{
+        flex-direction: column;
+    }
+    .new-btn{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
 }
 
 

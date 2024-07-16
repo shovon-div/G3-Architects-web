@@ -137,10 +137,10 @@ main{
 .features{
     display: flex;
     gap: 146px;
-    .feature-architect{
+}
+    
+.feature-architect img{
         width: 100%;
-    }
-
 }
 #ftr-border{
     border-left: 5px solid rgb(255, 144, 14);
